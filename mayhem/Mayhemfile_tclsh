@@ -1,0 +1,8 @@
+project: savantenvs/tcl
+target: tclsh
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/tclsh/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/tclsh @@
+    timeout: 5

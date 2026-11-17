@@ -1,0 +1,9 @@
+project: savantenvs/tcl
+target: fuzz_zlib
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_zlib/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_zlib
+    libfuzzer: true
+    timeout: 5

@@ -1,0 +1,2 @@
+set x {a b $c} ; puts "[foo $x(1)] \n" # c
+proc p {} {}

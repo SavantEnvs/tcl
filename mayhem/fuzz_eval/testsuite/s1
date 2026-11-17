@@ -1,0 +1,1 @@
+set a [string map {x y} xyz]; regexp {(\w+)} $a -> m; dict set d k $m; format %s $d

@@ -1,0 +1,4 @@
+# build trees and harness binaries written by mayhem/build.sh
+/build-fuzz/
+/build-test/
+/out/

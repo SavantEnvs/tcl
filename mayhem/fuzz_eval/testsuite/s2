@@ -1,0 +1,1 @@
+namespace eval n {proc p {} {lmap x [lseq 1 5] {expr {$x**2}}}}; n::p
